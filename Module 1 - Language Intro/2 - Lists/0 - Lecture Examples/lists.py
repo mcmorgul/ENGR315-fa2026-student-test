@@ -25,6 +25,9 @@ print(empty_list)
 small_list = [5, 6, 7, 8, 9]
 empty_list.append(small_list)
 
+temp= small_list[:0]
+print(temp)
+
 # print list contents and length
 print(empty_list)
 print('Length of List is: '+str(len(empty_list)))

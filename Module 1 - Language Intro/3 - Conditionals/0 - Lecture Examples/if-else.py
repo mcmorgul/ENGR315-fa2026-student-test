@@ -2,7 +2,7 @@ import random
 
 # get a random integer between [0-10]
 random_num = random.randint(0, 10)
-
+random_num = 4
 # print out the number
 print("The random number is: ", random_num)
 
@@ -63,5 +63,11 @@ else:
     print("We should neve see this statement...")
 
 
+
+
+print("Value is! " + str(random_num))
+
+if random_num % 2 == 1:
+    print("Value is odd!")
 
 
